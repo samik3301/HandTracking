@@ -33,3 +33,5 @@ After getting the length, the minimum and the maximum length range can be saved 
 The length range is then interpolated with the volume range (0 to 100) using the numpy `interp` function. OSA-Script is used to get access for master volume control for MacOS. PyCaw library can be used to get access to volume control on Windows.
 
 To summarize: This project uses OpenCV with Mediapipe and OSA-Script for MacOS to change the volume by tracking the finger tip landmarks.
+
+This was tested on Macbook M1 Air CPU with Slightly Poor FPS (OSA-Script Limitations : Not Optimized).
