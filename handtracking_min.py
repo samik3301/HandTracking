@@ -34,10 +34,10 @@ while True:
                 
                 '''
                 if id == 4:
-                    cv2.circle(img, (cx,cy),20,(255,0,0),cv2.FILLED)
+                    cv2.circle(img, (cx,cy),20,(255,0,0),cv2.FILLED) #thumb tip
 
                 if id == 8:
-                    cv2.circle(img, (cx,cy),20,(255,0,0),cv2.FILLED)
+                    cv2.circle(img, (cx,cy),20,(255,0,0),cv2.FILLED) #index tip
                 
                 
             mpDraw.draw_landmarks(img,handsLms,mpHands.HAND_CONNECTIONS) 
